@@ -32,7 +32,7 @@ export const EXPERIENCES_DATA: Experience[] = [
     id: 'exp1',
     role: 'Senior Software Engineer',
     company: 'Capital One | McLean, VA',
-    period: 'Jan 2022 - Present',
+    period: 'Jan 2022 - Dec 2024',
     descriptionPoints: [
       'Designed and led a microservice overhaul from Java Spring Boot to Python, transitioning from Docker and ECS to AWS Lambda with zero downtime, reducing costs by 30% and development hours by 50%.',
       'Implemented a new Python-based serverless architecture for a real-time ML-powered chatbot to deliver personalized customer experiences and support, saving $2.8M annually in customer support calls.',
