@@ -16,11 +16,11 @@ export const Hero: React.FC<HeroProps> = ({ id }) => {
           className="bg-gradient-to-br from-slate-800 via-slate-900 to-slate-800 text-white min-h-screen flex items-center justify-center pt-20 pb-10 md:pt-16" // Added pb-10 and adjusted pt
       >
         <div className="text-center p-6 sm:p-8 max-w-3xl mx-auto">
-          <img
-              src="https://picsum.photos/seed/devprofile/160/160"
-              alt="Anirudha Simha"
-              className="w-36 h-36 sm:w-40 sm:h-40 rounded-full mx-auto mb-6 sm:mb-8 border-4 border-orange-500 shadow-xl"
-          />
+          {/*<img*/}
+          {/*    src="https://picsum.photos/seed/devprofile/160/160"*/}
+          {/*    alt="Anirudha Simha"*/}
+          {/*    className="w-36 h-36 sm:w-40 sm:h-40 rounded-full mx-auto mb-6 sm:mb-8 border-4 border-orange-500 shadow-xl"*/}
+          {/*/>*/}
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-3 sm:mb-4 tracking-tight">
             Anirudha Simha
           </h1>
