@@ -29,7 +29,16 @@ export const MEDIUM_PROFILE_URL = 'https://medium.com/@anirudha.simha';
 
 export const EXPERIENCES_DATA: Experience[] = [
   {
-    id: 'exp1',
+    id: 'hubspot_1',
+    role: 'Senior Software Engineer Ⅱ',
+    company: 'Hubspot',
+    period: 'Dec 2024 - Present',
+    descriptionPoints: [
+    ],
+    technologies: ['Java', 'Kubernetes', 'S3', 'MySQL', 'Microservices', 'RPC', 'Generative AI'],
+  },
+    {
+    id: 'capital_one_3',
     role: 'Senior Software Engineer',
     company: 'Capital One | McLean, VA',
     period: 'Jan 2022 - Dec 2024',
@@ -44,7 +53,7 @@ export const EXPERIENCES_DATA: Experience[] = [
     technologies: ['Python', 'Java Spring Boot', 'AWS Lambda', 'Docker', 'ECS', 'S3', 'DynamoDB', 'Node.js', 'Microservices'],
   },
   {
-    id: 'exp2',
+    id: 'capital_one_2',
     role: 'Software Engineer',
     company: 'Capital One | McLean, VA',
     period: 'Jan 2020 - Jan 2022',
@@ -57,7 +66,7 @@ export const EXPERIENCES_DATA: Experience[] = [
     technologies: ['Websockets', 'AWS Fargate', 'OpenAPI/Swagger', 'SQS', 'Snowflake', 'AWS Lambda', 'Javascript', 'Slack API'],
   },
   {
-    id: 'exp3',
+    id: 'capital_one_1',
     role: 'Associate Software Engineer',
     company: 'Capital One | McLean, VA',
     period: 'Sept 2017 - Jan 2020',
