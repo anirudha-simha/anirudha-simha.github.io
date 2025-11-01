@@ -31,7 +31,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18' # Or your preferred LTS Node.js version
+          node-version: '24' # Node.js 24 LTS
           cache: 'npm' # Or 'yarn' if you use yarn
 
       - name: Install dependencies
