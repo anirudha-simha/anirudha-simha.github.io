@@ -12,7 +12,7 @@ export const About: React.FC<AboutProps> = ({ id }) => {
       <div className="space-y-6 text-lg text-slate-700 leading-relaxed max-w-3xl mx-auto">
         <p>
           Hello! I'm Anirudha Simha, a seasoned software engineer with a strong background in backend systems and a passion for machine learning. 
-          With over 7 years of experience, I've had the privilege of working on diverse projects, from architecting scalable cloud solutions to developing machine learning models that drive business value.
+          With over 8 years of experience, I've had the privilege of working on diverse projects, from architecting scalable cloud solutions to developing machine learning models that drive business value.
         </p>
         <p>
           My expertise lies in <strong className="text-orange-600 font-semibold">Python, Java, AWS, distributed systems, and MLOps</strong>.
