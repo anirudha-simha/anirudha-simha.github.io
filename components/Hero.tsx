@@ -28,7 +28,7 @@ export const Hero: React.FC<HeroProps> = ({ id }) => {
             Software Engineer | Backend Systems &amp; ML Solutions
           </p>
           <p className="text-md sm:text-lg md:text-xl mb-8 sm:mb-10 max-w-2xl mx-auto text-slate-300 leading-relaxed">
-            Experienced software engineer with over 7 years of expertise in collaborating with cross-functional teams to build reliable, scalable, and maintainable backend systems and ML solutions in cloud environments.
+            Experienced software engineer with over 8 years of expertise in collaborating with cross-functional teams to build reliable, scalable, and maintainable backend systems and ML solutions in cloud environments.
           </p>
           <div className="flex justify-center space-x-5 sm:space-x-6 mb-10">
             {SOCIAL_LINKS.map((link: SocialLink) => (
