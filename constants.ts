@@ -21,7 +21,8 @@ export const NAV_LINKS = NAV_LINKS_LIST.reduce((acc, current) => {
 
 export const SOCIAL_LINKS: SocialLink[] = [
   { name: 'LinkedIn', iconClass: 'fab fa-linkedin', url: 'https://linkedin.com/in/anirudha-simha' },
-  { name: 'GitHub', iconClass: 'fab fa-github', url: 'https://github.com/yourusername' }, // Placeholder, update if available
+  { name: 'GitHub', iconClass: 'fab fa-github', url: 'https://github.com/anirudha-simha' }, // Placeholder, update if available
+  { name: 'Medium', iconClass: 'fab fa-medium', url: 'https://medium.com/@anirudha.simha' },
   // { name: 'Twitter', iconClass: 'fab fa-twitter', url: 'https://twitter.com/yourusername' }, // Placeholder
 ];
 
@@ -32,6 +33,7 @@ export const EXPERIENCES_DATA: Experience[] = [
     id: 'hubspot_1',
     role: 'Senior Software Engineer Ⅱ',
     company: 'Hubspot',
+    location: 'Remote, USA',
     period: 'Dec 2024 - Present',
     descriptionPoints: [
     ],
@@ -40,7 +42,8 @@ export const EXPERIENCES_DATA: Experience[] = [
     {
     id: 'capital_one_3',
     role: 'Senior Software Engineer',
-    company: 'Capital One | McLean, VA',
+    company: 'Capital One',
+    location: 'McLean, VA',
     period: 'Jan 2022 - Dec 2024',
     descriptionPoints: [
       'Designed and led a microservice overhaul from Java Spring Boot to Python, transitioning from Docker and ECS to AWS Lambda with zero downtime, reducing costs by 30% and development hours by 50%.',
@@ -55,7 +58,8 @@ export const EXPERIENCES_DATA: Experience[] = [
   {
     id: 'capital_one_2',
     role: 'Software Engineer',
-    company: 'Capital One | McLean, VA',
+    company: 'Capital One',
+    location: 'McLean, VA',
     period: 'Jan 2020 - Jan 2022',
     descriptionPoints: [
       'Developed a new websocket-based standard for hosting Slack apps using AWS Fargate, thereby reducing latency, enhancing development experience, and driving adoption by all Slack apps company wide.',
@@ -68,7 +72,8 @@ export const EXPERIENCES_DATA: Experience[] = [
   {
     id: 'capital_one_1',
     role: 'Associate Software Engineer',
-    company: 'Capital One | McLean, VA',
+    company: 'Capital One',
+    location: 'McLean, VA',
     period: 'Sept 2017 - Jan 2020',
     descriptionPoints: [
       'Architected and implemented the move of Node.js-based Slackbot from Docker to AWS Lambda, increasing availability and deployment efficiency, and reducing costs by 50%.',

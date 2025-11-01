@@ -10,9 +10,12 @@ interface ExperienceCardProps {
 
 const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => (
   <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 mb-8 border border-slate-200">
-    <h3 className="text-xl font-semibold text-orange-600 mb-1">{experience.role}</h3>
-    <p className="text-lg text-slate-800 font-medium mb-1">{experience.company}</p>
-    <p className="text-sm text-slate-500 mb-4">{experience.period}</p>
+    <h3 className="text-xl font-semibold text-orange-600 mb-0.5">{experience.role}</h3>
+    <p className="text-lg text-slate-800 font-medium mb-0.5">{experience.company}</p>
+    <p className="text-sm text-slate-500 mb-4">
+      {experience.location && <>{experience.location} • </>}
+      {experience.period}
+    </p>
     <ul className="list-disc list-inside space-y-2 mb-4 text-slate-700 marker:text-orange-500">
       {experience.descriptionPoints.map((point, index) => (
         <li key={index}>{point}</li>

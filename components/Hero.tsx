@@ -49,8 +49,9 @@ export const Hero: React.FC<HeroProps> = ({ id }) => {
                   href={linkedInProfile.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-orange-500 text-white font-semibold px-6 py-3 sm:px-8 sm:py-3 rounded-lg shadow-lg hover:bg-orange-600 transition-all duration-150 ease-in-out text-md sm:text-lg transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-opacity-75"
+                  className="bg-orange-500 text-white font-semibold px-6 py-3 sm:px-8 sm:py-3 rounded-lg shadow-lg hover:bg-orange-600 transition-all duration-150 ease-in-out text-md sm:text-lg transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-opacity-75 inline-flex items-center gap-2"
               >
+                <i className="fab fa-linkedin text-xl"></i>
                 Connect on LinkedIn
               </a>
           )}

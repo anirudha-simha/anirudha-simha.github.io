@@ -14,9 +14,11 @@ export interface Experience {
   id: string;
   role: string;
   company: string;
+  location?: string;
   period: string;
   descriptionPoints: string[];
   technologies?: string[];
+  logoUrl?: string;
 }
 
 export interface Project {
