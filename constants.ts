@@ -36,6 +36,9 @@ export const EXPERIENCES_DATA: Experience[] = [
     location: 'Remote, USA',
     period: 'Dec 2024 - Present',
     descriptionPoints: [
+      'Driving technical direction and backend architecture for HubSpot\'s agentic prospecting and AI infrastructure. Responsible for designing foundational data systems, orchestrating complex LLM pipelines, and driving cross-team engineering initiatives.',
+      'Orchestrated Agentic AI Pipelines: Architected and lead development of an agentic sales prospecting pipeline designed to coordinate AI sub-agents to automate rep workflows and reduce the toil on tasks such as research and outreach. Authored the core technical designs by scoping requirements directly with sales reps and product leadership. Drove execution and org-wide alignment by leading cross-functional engineering syncs and presenting to wider audiences.',
+      'Led End-to-End Data & Intelligence Platforms: Spearheaded the architecture and led the development of the complete company intelligence pipeline, from raw data collection to LLM-driven insights. Built a distributed web-scraping platform processing millions of URLs monthly that feeds directly into an in-house AI engine. This replaced a third-party vendor, eliminating significant monthly overhead while generating millions of actionable insights. The system is now productized org wide as a centralized intelligence store.'
     ],
     technologies: ['Java', 'Kubernetes', 'S3', 'MySQL', 'Microservices', 'RPC', 'Generative AI'],
   },
@@ -129,7 +132,7 @@ export const EDUCATION_DATA: Education[] = [
     institution: 'Georgia Institute of Technology',
     degree: 'M.S. in Computer Science',
     period: 'Atlanta, GA',
-    description: 'Specilization in Machine Learning',
+    description: 'Specialization in Machine Learning',
   },
   {
     id: 'edu2',
